@@ -1,0 +1,53 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json",
+    "https://raw.githubusercontent.com/YOUR-PROTOCOL-CONTEXT-FILE"
+  ],
+  "@type": "reproschema:Protocol",
+  "@id": "ped screener test_schema",
+  "skos:prefLabel": "ped screener test",
+  "schema:description": "This set of questionnaires is for individuals aged 11 and older. The first three questionnaires should be completed by the individual and the fourth questionnaire should be completed by their parent/caregiver.",
+  "schema:image": "https://mindlogger-applet-contents.s3.amazonaws.com/image/d7foDAMB8iUSfvFhMvR7Ra.png",
+  "schema:watermark": "https://mindlogger-applet-contents.s3.amazonaws.com/image/46za6ZjCyH8V8T9zrxU5DH.png",
+  "schema:schemaVersion": "1.0.2",
+  "schema:version": "1.0.2",
+  "combineReports": true,
+  "landingPageContent": "",
+  "landingPageType": "markdown",
+  "landingPage": "",
+  "ui": {
+    "addProperties": [
+      {
+        "variableName": "PMHSA__-__Self__Report",
+        "isAbout": "PMHSA__-__Self__Report",
+        "prefLabel": "PMHSA - Self Report",
+        "isVis": true
+      },
+      {
+        "variableName": "PHQ-9__-__Self__Report",
+        "isAbout": "PHQ-9__-__Self__Report",
+        "prefLabel": "PHQ-9 - Self Report",
+        "isVis": true
+      },
+      {
+        "variableName": "GAD-7__-__Self__Report",
+        "isAbout": "GAD-7__-__Self__Report",
+        "prefLabel": "GAD-7 - Self Report",
+        "isVis": true
+      },
+      {
+        "variableName": "ACE__-__Parent__Report",
+        "isAbout": "ACE__-__Parent__Report",
+        "prefLabel": "ACE - Parent Report",
+        "isVis": true
+      }
+    ],
+    "order": [
+      "PMHSA__-__Self__Report",
+      "PHQ-9__-__Self__Report",
+      "GAD-7__-__Self__Report",
+      "ACE__-__Parent__Report"
+    ],
+    "shuffle": false
+  }
+}

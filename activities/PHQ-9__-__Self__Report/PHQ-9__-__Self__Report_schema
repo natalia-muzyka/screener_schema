@@ -1,0 +1,133 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json"
+  ],
+  "@id": "PHQ-9 - Self Report",
+  "@type": "reproschema:Activity",
+  "skos:prefLabel": "PHQ-9 - Self Report",
+  "skos:altLabel": "PHQ-9 - Self Report",
+  "schema:description": "2 out of 4",
+  "schema:splash": "",
+  "schema:image": "",
+  "schema:schemaVersion": "0.0.1",
+  "schema:version": "0.0.1",
+  "preamble": "",
+  "isReviewerActivity": false,
+  "isOnePageAssessment": false,
+  "scoringLogic": {},
+  "repronim:timeUnit": "yearmonthdate",
+  "isPrize": false,
+  "isVis": false,
+  "ui": {
+    "order": [
+      "q1",
+      "q1__28",
+      "q1__27",
+      "q1__26",
+      "q1__25",
+      "q1__24",
+      "q1__23",
+      "q1__22",
+      "q1__21",
+      "q1__20",
+      "q1__2",
+      "q1__1"
+    ],
+    "shuffle": false,
+    "addProperties": [
+      {
+        "variableName": "q1",
+        "isAbout": "q1",
+        "isVis": true
+      },
+      {
+        "variableName": "q1__28",
+        "isAbout": "q1__28",
+        "isVis": true
+      },
+      {
+        "variableName": "q1__27",
+        "isAbout": "q1__27",
+        "isVis": true
+      },
+      {
+        "variableName": "q1__26",
+        "isAbout": "q1__26",
+        "isVis": true
+      },
+      {
+        "variableName": "q1__25",
+        "isAbout": "q1__25",
+        "isVis": true
+      },
+      {
+        "variableName": "q1__24",
+        "isAbout": "q1__24",
+        "isVis": true
+      },
+      {
+        "variableName": "q1__23",
+        "isAbout": "q1__23",
+        "isVis": true
+      },
+      {
+        "variableName": "q1__22",
+        "isAbout": "q1__22",
+        "isVis": true
+      },
+      {
+        "variableName": "q1__21",
+        "isAbout": "q1__21",
+        "isVis": true
+      },
+      {
+        "variableName": "q1__20",
+        "isAbout": "q1__20",
+        "isVis": true
+      },
+      {
+        "variableName": "q1__2",
+        "isAbout": "q1__2",
+        "isVis": true
+      },
+      {
+        "variableName": "q1__1",
+        "isAbout": "q1__1",
+        "isVis": true
+      }
+    ],
+    "allow": [
+      "disableSummary"
+    ]
+  },
+  "subScales": [],
+  "finalSubScale": [],
+  "hasResponseIdentifier": false,
+  "compute": [
+    {
+      "jsExpression": "q1__28 + q1__27 + q1__26 + q1__25 + q1__24 + q1__23 + q1__22 + q1__21 + q1__20",
+      "variableName": "Depression Severity Score",
+      "description": "Scores range from 0 to 27, with higher scores indicating greater severity.\n\n![phq9table.png](https://mindlogger-applet-contents.s3.amazonaws.com/images/5YUaEYKLQkwzCuo9dr7mWh.png)",
+      "direction": true
+    }
+  ],
+  "messages": [
+    {
+      "jsExpression": "Depression Severity Score >= 10",
+      "message": "This score indicates Moderate to Severe Depression Severity. Proposed treatment actions include creating a treatment plan that involves pharmacotherapy and/or psychotherapy.\n\nHigh scores on this scale indicate the need for further clinical evaluation and attention depending on the level of difficulties encountered in the home, work, or social environments, if not currently being addressed.",
+      "outputType": "cumulative",
+      "nextActivity": "GAD-7 - Self Report",
+      "hideActivity": false,
+      "isRecommended": true
+    },
+    {
+      "jsExpression": "Depression Severity Score < 10",
+      "message": "This score indicates No Depression to Mild Depression. Proposed treatment plans include watchful waiting and repeating the PHQ-9 at follow-up sessions.\n\nIf you remain concerned about this patient's functioning or well-being, you should seek additional consultation and guidance, even though this score is in the low-risk range.",
+      "outputType": "cumulative",
+      "nextActivity": "GAD-7 - Self Report",
+      "hideActivity": false,
+      "isRecommended": true
+    }
+  ],
+  "scoreOverview": "## Patient Health Questionnaire (PHQ-9)  \n\nThe PHQ-9 screens for depression severity and impairment level in adolescents and adults. According to the DSM-5, depression refers to significant distress or impairment in daily life, accompanied by the frequent occurence of some of the following symptoms:\n- depressed mood most of the day, almost every day\n- significantly decreased interest or pleasure in all or most activities\n- abnormal changes in weight (loss or gain) and in appetite (increased or decreased)\n- changes in sleep (e.g., insomnia)\n- psychomotor agitation or retardation (e.g., restlessness) that is observeable by others\n- fatigue or loss of energy\n- feelings of worthlessness or inapropriate guilt\n- lack of concentration\n- suicidal thoughts, behaviors, or attempts"
+}

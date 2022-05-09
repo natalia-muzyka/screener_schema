@@ -1,0 +1,133 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json"
+  ],
+  "@id": "GAD-7 - Self Report",
+  "@type": "reproschema:Activity",
+  "skos:prefLabel": "GAD-7 - Self Report",
+  "skos:altLabel": "GAD-7 - Self Report",
+  "schema:description": "3 out of 4",
+  "schema:splash": "",
+  "schema:image": "",
+  "schema:schemaVersion": "0.0.1",
+  "schema:version": "0.0.1",
+  "preamble": "",
+  "isReviewerActivity": false,
+  "isOnePageAssessment": false,
+  "scoringLogic": {},
+  "repronim:timeUnit": "yearmonthdate",
+  "isPrize": false,
+  "isVis": false,
+  "ui": {
+    "order": [
+      "q1",
+      "q1__28",
+      "q1__27",
+      "q1__26",
+      "q1__25",
+      "q1__24",
+      "q1__23",
+      "q1__22",
+      "q1__21",
+      "q1__20",
+      "q1__2",
+      "q1__1"
+    ],
+    "shuffle": false,
+    "addProperties": [
+      {
+        "variableName": "q1",
+        "isAbout": "q1",
+        "isVis": true
+      },
+      {
+        "variableName": "q1__28",
+        "isAbout": "q1__28",
+        "isVis": true
+      },
+      {
+        "variableName": "q1__27",
+        "isAbout": "q1__27",
+        "isVis": true
+      },
+      {
+        "variableName": "q1__26",
+        "isAbout": "q1__26",
+        "isVis": true
+      },
+      {
+        "variableName": "q1__25",
+        "isAbout": "q1__25",
+        "isVis": true
+      },
+      {
+        "variableName": "q1__24",
+        "isAbout": "q1__24",
+        "isVis": true
+      },
+      {
+        "variableName": "q1__23",
+        "isAbout": "q1__23",
+        "isVis": true
+      },
+      {
+        "variableName": "q1__22",
+        "isAbout": "q1__22",
+        "isVis": true
+      },
+      {
+        "variableName": "q1__21",
+        "isAbout": "q1__21",
+        "isVis": true
+      },
+      {
+        "variableName": "q1__20",
+        "isAbout": "q1__20",
+        "isVis": true
+      },
+      {
+        "variableName": "q1__2",
+        "isAbout": "q1__2",
+        "isVis": true
+      },
+      {
+        "variableName": "q1__1",
+        "isAbout": "q1__1",
+        "isVis": true
+      }
+    ],
+    "allow": [
+      "disableSummary"
+    ]
+  },
+  "subScales": [],
+  "finalSubScale": [],
+  "hasResponseIdentifier": false,
+  "compute": [
+    {
+      "jsExpression": "q1__28 + q1__27 + q1__26 + q1__25 + q1__24 + q1__23 + q1__22 + q1__21 + q1__20",
+      "variableName": "Anxiety",
+      "description": "Scores range from 0 to 21 with the following risk categories:\n|Range of Scores|Anxiety Level|\n|-|-|-|\n|0-4|Minimal Anxiety|\n|5-9|Mild Anxiety|\n|10-14|Moderate Anxiety|\n|15-21|Severe Anxiety|",
+      "direction": true
+    }
+  ],
+  "messages": [
+    {
+      "jsExpression": "Anxiety >= 10",
+      "message": "This score indicates the presence of Moderate Anxiety (10-14) or Severe Anxiety (15-21).\n\nHigh scores on this scale indicate the need for further clinical evaluation and attention depending on the level of difficulties encountered in the home, work, or social environments, if not currently being addressed.",
+      "outputType": "cumulative",
+      "nextActivity": "ACE - Parent Report",
+      "hideActivity": false,
+      "isRecommended": true
+    },
+    {
+      "jsExpression": "Anxiety < 10",
+      "message": "This score indicates Minimal Anxiety (0-4) or Mild Anxiety (5-9).\n\nIf you remain concerned about this patient's functioning or well-being, you should seek additional consultation and guidance, even though this score is in the low-risk range.",
+      "outputType": "cumulative",
+      "nextActivity": "ACE - Parent Report",
+      "hideActivity": false,
+      "isRecommended": true
+    }
+  ],
+  "scoreOverview": "## GAD-7  \n\nAnxiety refers to excessive worrying or fear that impairs or disrupts a person's daily life. The GAD-7 includes 7 items that assess the individual's anxiety level and 1 item that assesses impairment level.\n"
+}

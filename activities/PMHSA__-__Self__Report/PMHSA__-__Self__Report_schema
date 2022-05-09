@@ -1,0 +1,427 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json"
+  ],
+  "@id": "PMHSA - Self Report",
+  "@type": "reproschema:Activity",
+  "skos:prefLabel": "PMHSA - Self Report",
+  "skos:altLabel": "PMHSA - Self Report",
+  "schema:description": "1 out of 4",
+  "schema:splash": "https://mindlogger-applet-contents.s3.amazonaws.com/video_or_image/kRt5cefxbgJ5Dp7mrdoZ9t.jpeg",
+  "schema:image": "",
+  "schema:schemaVersion": "0.0.1",
+  "schema:version": "0.0.1",
+  "preamble": "",
+  "isReviewerActivity": false,
+  "isOnePageAssessment": false,
+  "scoringLogic": {},
+  "repronim:timeUnit": "yearmonthdate",
+  "isPrize": false,
+  "isVis": false,
+  "ui": {
+    "order": [
+      "ParentConsent",
+      "parentinstructions",
+      "childincome",
+      "childnamefirst",
+      "childnamelast",
+      "childbirthday",
+      "childage",
+      "childprompt",
+      "childprompt__2",
+      "childprompt__1",
+      "childprompt__1__1",
+      "childprompt__1__2",
+      "q1",
+      "q1__28",
+      "q1__27",
+      "q1__26",
+      "q1__25",
+      "q1__24",
+      "q1__23",
+      "q1__22",
+      "q1__21",
+      "q1__20",
+      "q1__19",
+      "q1__18",
+      "q1__17",
+      "q1__16",
+      "q1__15",
+      "q1__14",
+      "q1__13",
+      "q1__12",
+      "q1__11",
+      "q1__10",
+      "q1__9",
+      "q1__8",
+      "q1__7",
+      "q1__6",
+      "q1__5",
+      "q1__4",
+      "q1__3",
+      "q1__2",
+      "q1__1"
+    ],
+    "shuffle": false,
+    "addProperties": [
+      {
+        "variableName": "ParentConsent",
+        "isAbout": "ParentConsent",
+        "isVis": true
+      },
+      {
+        "variableName": "parentinstructions",
+        "isAbout": "parentinstructions",
+        "isVis": true
+      },
+      {
+        "variableName": "childincome",
+        "isAbout": "childincome",
+        "isVis": true
+      },
+      {
+        "variableName": "childnamefirst",
+        "isAbout": "childnamefirst",
+        "isVis": true
+      },
+      {
+        "variableName": "childnamelast",
+        "isAbout": "childnamelast",
+        "isVis": true
+      },
+      {
+        "variableName": "childbirthday",
+        "isAbout": "childbirthday",
+        "isVis": true
+      },
+      {
+        "variableName": "childage",
+        "isAbout": "childage",
+        "isVis": true
+      },
+      {
+        "variableName": "childprompt",
+        "isAbout": "childprompt",
+        "isVis": true
+      },
+      {
+        "variableName": "childprompt__2",
+        "isAbout": "childprompt__2",
+        "isVis": true
+      },
+      {
+        "variableName": "childprompt__1",
+        "isAbout": "childprompt__1",
+        "isVis": true
+      },
+      {
+        "variableName": "childprompt__1__1",
+        "isAbout": "childprompt__1__1",
+        "isVis": true
+      },
+      {
+        "variableName": "childprompt__1__2",
+        "isAbout": "childprompt__1__2",
+        "isVis": true
+      },
+      {
+        "variableName": "q1",
+        "isAbout": "q1",
+        "isVis": true
+      },
+      {
+        "variableName": "q1__28",
+        "isAbout": "q1__28",
+        "isVis": true
+      },
+      {
+        "variableName": "q1__27",
+        "isAbout": "q1__27",
+        "isVis": true
+      },
+      {
+        "variableName": "q1__26",
+        "isAbout": "q1__26",
+        "isVis": true
+      },
+      {
+        "variableName": "q1__25",
+        "isAbout": "q1__25",
+        "isVis": true
+      },
+      {
+        "variableName": "q1__24",
+        "isAbout": "q1__24",
+        "isVis": true
+      },
+      {
+        "variableName": "q1__23",
+        "isAbout": "q1__23",
+        "isVis": true
+      },
+      {
+        "variableName": "q1__22",
+        "isAbout": "q1__22",
+        "isVis": true
+      },
+      {
+        "variableName": "q1__21",
+        "isAbout": "q1__21",
+        "isVis": true
+      },
+      {
+        "variableName": "q1__20",
+        "isAbout": "q1__20",
+        "isVis": true
+      },
+      {
+        "variableName": "q1__19",
+        "isAbout": "q1__19",
+        "isVis": true
+      },
+      {
+        "variableName": "q1__18",
+        "isAbout": "q1__18",
+        "isVis": true
+      },
+      {
+        "variableName": "q1__17",
+        "isAbout": "q1__17",
+        "isVis": true
+      },
+      {
+        "variableName": "q1__16",
+        "isAbout": "q1__16",
+        "isVis": true
+      },
+      {
+        "variableName": "q1__15",
+        "isAbout": "q1__15",
+        "isVis": true
+      },
+      {
+        "variableName": "q1__14",
+        "isAbout": "q1__14",
+        "isVis": true
+      },
+      {
+        "variableName": "q1__13",
+        "isAbout": "q1__13",
+        "isVis": true
+      },
+      {
+        "variableName": "q1__12",
+        "isAbout": "q1__12",
+        "isVis": true
+      },
+      {
+        "variableName": "q1__11",
+        "isAbout": "q1__11",
+        "isVis": true
+      },
+      {
+        "variableName": "q1__10",
+        "isAbout": "q1__10",
+        "isVis": true
+      },
+      {
+        "variableName": "q1__9",
+        "isAbout": "q1__9",
+        "isVis": true
+      },
+      {
+        "variableName": "q1__8",
+        "isAbout": "q1__8",
+        "isVis": true
+      },
+      {
+        "variableName": "q1__7",
+        "isAbout": "q1__7",
+        "isVis": true
+      },
+      {
+        "variableName": "q1__6",
+        "isAbout": "q1__6",
+        "isVis": true
+      },
+      {
+        "variableName": "q1__5",
+        "isAbout": "q1__5",
+        "isVis": true
+      },
+      {
+        "variableName": "q1__4",
+        "isAbout": "q1__4",
+        "isVis": true
+      },
+      {
+        "variableName": "q1__3",
+        "isAbout": "q1__3",
+        "isVis": true
+      },
+      {
+        "variableName": "q1__2",
+        "isAbout": "q1__2",
+        "isVis": true
+      },
+      {
+        "variableName": "q1__1",
+        "isAbout": "q1__1",
+        "isVis": true
+      }
+    ],
+    "allow": [
+      "disableSummary"
+    ]
+  },
+  "subScales": [],
+  "finalSubScale": [],
+  "hasResponseIdentifier": false,
+  "compute": [
+    {
+      "jsExpression": "q1__28 + q1__18 + q1__8",
+      "variableName": "Anxiety Depression Symptoms",
+      "description": "This category includes distress emotions (e.g., sadness, fear and anxiety) and includes depressive symptoms such as loneliness. Somatic complaints (e.g., complaints about headaches and stomachaches) can be present in either condition.",
+      "direction": true
+    },
+    {
+      "jsExpression": "q1 + q1__21 + q1__11",
+      "variableName": "Behavior Symptoms",
+      "description": "Problematic behaviors are generally related to poor impulse-control, including rule breaking, aggression, impulsivity, and inattention. ",
+      "direction": true
+    },
+    {
+      "jsExpression": "q1__27 + q1__17 + q1__7",
+      "variableName": "Attention Problems",
+      "description": "Attention problems are marked by a persistent pattern of inattention, hyperactivity and/or impulsivity that interferes with functioning or development.  Someone with attention problems may wander off task, have difficulty sustaining focus, be disorganized, excessively fidget, talk too much, and/or move about constantly, even in situations in which it is not appropriate.",
+      "direction": true
+    },
+    {
+      "jsExpression": "q1__26",
+      "variableName": "Eating Problems",
+      "description": "Eating problems include a preoccupation with eating that leads to intense focus on eating more or less, as well as excessive concern about weight and body image. As a result, some individuals dramatically (sometimes dangerously) restrict caloric consumption while others consume large amounts of food in a very short period of time. In many instances these children may be confused about whether their body is appropriate in size and shape.",
+      "direction": true
+    },
+    {
+      "jsExpression": "q1__25",
+      "variableName": "Bullying",
+      "description": "",
+      "direction": true
+    },
+    {
+      "jsExpression": "q1__24",
+      "variableName": "Suicidal Ideation or Self Injury",
+      "description": "Some individuals experience thoughts of harming themselves or that they would be better off dead. Thoughts related to suicide and/or self-injury can potentially lead to intentional harmful actions, such as inappropriately ingesting pills or cutting oneself with a sharp object. Any presence of these types of thoughts should be addressed with a health care or mental health professional immediately as they have the potential to be fatal.",
+      "direction": true
+    },
+    {
+      "jsExpression": "q1__23",
+      "variableName": "Substance Use",
+      "description": "Substance use occurs when an individual uses alcohol, marijuana, or other drugs in a possibly unhealthy manner. It can lead to severe impairments and sometimes, can be fatal. ",
+      "direction": true
+    }
+  ],
+  "messages": [
+    {
+      "jsExpression": "Anxiety Depression Symptoms >= 5",
+      "message": "This score means that this individual's risk for a clinically significant anxiety or depressive disorder is in the higher range.\n\nHigh scores suggest a need for further clinical evaluation and, possibly services. This should be balanced against the level of difficulties encountered in home, work, or social environments. If Jane's score is not consistent with the general level of concern, please know that recent events in the environment can lead to the temporary increase in risk scores that don’t necessarily represent a long-term pattern of concern. If you are unsure of how to interpret this, consult with your primary care provider or a mental health professional.",
+      "outputType": "cumulative",
+      "nextActivity": "PHQ-9 - Self Report",
+      "hideActivity": false,
+      "isRecommended": true
+    },
+    {
+      "jsExpression": "Anxiety Depression Symptoms < 5",
+      "message": "This score means that this individual's risk for a clinically significant anxiety or depressive disorder is in the lower range.\n\nIf you remain concerned about their functioning or well-being you should seek additional consultation and guidance, even though their score is in the low-risk range.",
+      "outputType": "cumulative",
+      "nextActivity": "PHQ-9 - Self Report",
+      "hideActivity": false,
+      "isRecommended": true
+    },
+    {
+      "jsExpression": "Behavior Symptoms >= 7",
+      "message": "This score indicates the presence of significant impairments with conduct.\n\nIf not currently being addressed, high scores on this scale may signal the need for further clinical evaluation and attention depending on the level of difficulties encountered in the home, work, or social environments. ",
+      "outputType": "cumulative",
+      "hideActivity": true,
+      "isRecommended": false
+    },
+    {
+      "jsExpression": "Behavior Symptoms < 7",
+      "message": "This score means that this individual's risk for a clinically significant conduct disorder is in the lower range.\n\nIf you remain concerned about their functioning or well-being you should seek additional consultation and guidance, even though their score is in the low-risk range.",
+      "outputType": "cumulative",
+      "hideActivity": true,
+      "isRecommended": false
+    },
+    {
+      "jsExpression": "Attention Problems >= 7",
+      "message": "This score indicates the presence of significant impairments with attention.\n\nIf not currently being addressed, high scores on this scale may signal the need for further clinical evaluation and attention depending on the level of difficulties encountered in the home, work, or social environments. ",
+      "outputType": "cumulative",
+      "hideActivity": true,
+      "isRecommended": false
+    },
+    {
+      "jsExpression": "Attention Problems < 7",
+      "message": "This score means that this individual's risk for a clinically significant attention problems is in the lower range.\n\nIf you remain concerned about their functioning or well-being you should seek additional consultation and guidance, even though their score is in the low-risk range.",
+      "outputType": "cumulative",
+      "hideActivity": true,
+      "isRecommended": false
+    },
+    {
+      "jsExpression": "Eating Problems >= 2",
+      "message": "This score indicates the presence of significant impairments with eating.\n\nIf not currently being addressed, high scores on this scale may signal the need for further clinical evaluation and attention depending on the level of difficulties encountered in the home, work, or social environments. ",
+      "outputType": "cumulative",
+      "hideActivity": true,
+      "isRecommended": false
+    },
+    {
+      "jsExpression": "Eating Problems < 2",
+      "message": "This score means that this individual's risk for a clinically significant eating disorder is in the lower range.\n\nIf you remain concerned about their functioning or well-being you should seek additional consultation and guidance, even though their score is in the low-risk range.",
+      "outputType": "cumulative",
+      "hideActivity": true,
+      "isRecommended": false
+    },
+    {
+      "jsExpression": "Bullying >= 2",
+      "message": "Bullying is an aggressive and persistent behavior in which an individual in a dominant position attempts to cause physical, emotional, or social harm to someone in a subordinate position. Bullying includes victims, perpetrators and occasionally individuals who are both victims and perpetrators. All individuals involved in bullying, including victims, perpetrators and bystanders are at serious, increased risk for developing significant emotional problems and even suicidality.",
+      "outputType": "cumulative",
+      "hideActivity": true,
+      "isRecommended": false
+    },
+    {
+      "jsExpression": "Bullying < 2",
+      "message": "This individual indicated that they are not being picked on or bullied by other children.\n\nIf you remain concerned about their functioning or well-being you should seek additional consultation and guidance, even though their score is in the low-risk range.",
+      "outputType": "cumulative",
+      "hideActivity": true,
+      "isRecommended": false
+    },
+    {
+      "jsExpression": "Suicidal Ideation or Self Injury >= 1",
+      "message": "This score indicates that they may be experiencing thoughts related to suicide and/or self-injury. \n\nIf not currently being addressed, high scores on this scale may signal the need for further clinical evaluation and attention depending on the level of difficulties encountered in the home, work, or social environments. ",
+      "outputType": "cumulative",
+      "hideActivity": true,
+      "isRecommended": false
+    },
+    {
+      "jsExpression": "Suicidal Ideation or Self Injury < 1",
+      "message": "This score means that this individual's risk for a clinically significant suicidal and/or self-injurious thoughts is in the lower range.\n\nIf you remain concerned about their functioning or well-being you should seek additional consultation and guidance, even though their score is in the low-risk range.",
+      "outputType": "cumulative",
+      "hideActivity": true,
+      "isRecommended": false
+    },
+    {
+      "jsExpression": "Substance Use >= 1",
+      "message": "This individual indicated possible usage of substances, such as alcohol, marijuana, or other drugs.\n\nIf not currently being addressed, high scores on this scale may signal the need for further clinical evaluation and attention depending on the level of difficulties encountered in the home, work, or social environments. ",
+      "outputType": "cumulative",
+      "hideActivity": true,
+      "isRecommended": false
+    },
+    {
+      "jsExpression": "Substance Use < 1",
+      "message": "This score means that this individual's risk for a clinically significant substance usage is in the lower range.\n\nIf you remain concerned about their functioning or well-being you should seek additional consultation and guidance, even though their score is in the low-risk range.",
+      "outputType": "cumulative",
+      "hideActivity": true,
+      "isRecommended": false
+    }
+  ],
+  "scoreOverview": "# Pediatric Mental Health Screening Summary Report\n\nFirst name: [[childnamefirst]]  \nLast name: [[childnamelast]]  \nDOB:  [[childbirthday]]  \n\nBelow are the results to the screening questionnaire.  It is important to understand that rating scales alone do not determine a diagnosis. For example, if the attention problems subscale score comes out in the clinically significant range on a behavior rating scale, it does not necessarily mean that this individual is suffering from ADHD. It does, however, indicate that they reported symptoms commonly associated with ADHD. Further clinical evaluation and attention would then be recommended, unless the range of symptoms addressed by the scale is already being addressed in treatment."
+}

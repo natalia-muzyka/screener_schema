@@ -1,0 +1,170 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "ParentConsent": {
+      "@id": "PMHSA__-__Self__Report:ParentConsent",
+      "@type": "@id"
+    },
+    "parentinstructions": {
+      "@id": "PMHSA__-__Self__Report:parentinstructions",
+      "@type": "@id"
+    },
+    "childincome": {
+      "@id": "PMHSA__-__Self__Report:childincome",
+      "@type": "@id"
+    },
+    "childnamefirst": {
+      "@id": "PMHSA__-__Self__Report:childnamefirst",
+      "@type": "@id"
+    },
+    "childnamelast": {
+      "@id": "PMHSA__-__Self__Report:childnamelast",
+      "@type": "@id"
+    },
+    "childbirthday": {
+      "@id": "PMHSA__-__Self__Report:childbirthday",
+      "@type": "@id"
+    },
+    "childage": {
+      "@id": "PMHSA__-__Self__Report:childage",
+      "@type": "@id"
+    },
+    "childprompt": {
+      "@id": "PMHSA__-__Self__Report:childprompt",
+      "@type": "@id"
+    },
+    "childprompt__2": {
+      "@id": "PMHSA__-__Self__Report:childprompt__2",
+      "@type": "@id"
+    },
+    "childprompt__1": {
+      "@id": "PMHSA__-__Self__Report:childprompt__1",
+      "@type": "@id"
+    },
+    "childprompt__1__1": {
+      "@id": "PMHSA__-__Self__Report:childprompt__1__1",
+      "@type": "@id"
+    },
+    "childprompt__1__2": {
+      "@id": "PMHSA__-__Self__Report:childprompt__1__2",
+      "@type": "@id"
+    },
+    "q1": {
+      "@id": "PMHSA__-__Self__Report:q1",
+      "@type": "@id"
+    },
+    "q1__28": {
+      "@id": "PMHSA__-__Self__Report:q1__28",
+      "@type": "@id"
+    },
+    "q1__27": {
+      "@id": "PMHSA__-__Self__Report:q1__27",
+      "@type": "@id"
+    },
+    "q1__26": {
+      "@id": "PMHSA__-__Self__Report:q1__26",
+      "@type": "@id"
+    },
+    "q1__25": {
+      "@id": "PMHSA__-__Self__Report:q1__25",
+      "@type": "@id"
+    },
+    "q1__24": {
+      "@id": "PMHSA__-__Self__Report:q1__24",
+      "@type": "@id"
+    },
+    "q1__23": {
+      "@id": "PMHSA__-__Self__Report:q1__23",
+      "@type": "@id"
+    },
+    "q1__22": {
+      "@id": "PMHSA__-__Self__Report:q1__22",
+      "@type": "@id"
+    },
+    "q1__21": {
+      "@id": "PMHSA__-__Self__Report:q1__21",
+      "@type": "@id"
+    },
+    "q1__20": {
+      "@id": "PMHSA__-__Self__Report:q1__20",
+      "@type": "@id"
+    },
+    "q1__19": {
+      "@id": "PMHSA__-__Self__Report:q1__19",
+      "@type": "@id"
+    },
+    "q1__18": {
+      "@id": "PMHSA__-__Self__Report:q1__18",
+      "@type": "@id"
+    },
+    "q1__17": {
+      "@id": "PMHSA__-__Self__Report:q1__17",
+      "@type": "@id"
+    },
+    "q1__16": {
+      "@id": "PMHSA__-__Self__Report:q1__16",
+      "@type": "@id"
+    },
+    "q1__15": {
+      "@id": "PMHSA__-__Self__Report:q1__15",
+      "@type": "@id"
+    },
+    "q1__14": {
+      "@id": "PMHSA__-__Self__Report:q1__14",
+      "@type": "@id"
+    },
+    "q1__13": {
+      "@id": "PMHSA__-__Self__Report:q1__13",
+      "@type": "@id"
+    },
+    "q1__12": {
+      "@id": "PMHSA__-__Self__Report:q1__12",
+      "@type": "@id"
+    },
+    "q1__11": {
+      "@id": "PMHSA__-__Self__Report:q1__11",
+      "@type": "@id"
+    },
+    "q1__10": {
+      "@id": "PMHSA__-__Self__Report:q1__10",
+      "@type": "@id"
+    },
+    "q1__9": {
+      "@id": "PMHSA__-__Self__Report:q1__9",
+      "@type": "@id"
+    },
+    "q1__8": {
+      "@id": "PMHSA__-__Self__Report:q1__8",
+      "@type": "@id"
+    },
+    "q1__7": {
+      "@id": "PMHSA__-__Self__Report:q1__7",
+      "@type": "@id"
+    },
+    "q1__6": {
+      "@id": "PMHSA__-__Self__Report:q1__6",
+      "@type": "@id"
+    },
+    "q1__5": {
+      "@id": "PMHSA__-__Self__Report:q1__5",
+      "@type": "@id"
+    },
+    "q1__4": {
+      "@id": "PMHSA__-__Self__Report:q1__4",
+      "@type": "@id"
+    },
+    "q1__3": {
+      "@id": "PMHSA__-__Self__Report:q1__3",
+      "@type": "@id"
+    },
+    "q1__2": {
+      "@id": "PMHSA__-__Self__Report:q1__2",
+      "@type": "@id"
+    },
+    "q1__1": {
+      "@id": "PMHSA__-__Self__Report:q1__1",
+      "@type": "@id"
+    },
+    "PMHSA__-__Self__Report": "https://raw.githubusercontent.com/YOUR-PATH-TO-ITEM-FOLDER"
+  }
+}

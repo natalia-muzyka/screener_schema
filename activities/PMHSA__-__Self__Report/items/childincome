@@ -1,0 +1,81 @@
+{
+  "name": "childincome",
+  "question": "childincome",
+  "description": "",
+  "isVis": false,
+  "isOptionalText": false,
+  "timer": 0,
+  "allowEdit": true,
+  "@context": [
+    "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json"
+  ],
+  "@type": "reproschema:Field",
+  "@id": "childincome",
+  "skos:prefLabel": "childincome",
+  "skos:altLabel": "childincome",
+  "schema:description": "",
+  "schema:schemaVersion": "0.0.1",
+  "schema:version": "0.0.1",
+  "header": "",
+  "section": "",
+  "ui": {
+    "inputType": "radio",
+    "allow": [
+      "autoAdvance"
+    ]
+  },
+  "responseOptions": {
+    "valueType": "xsd:anyURI",
+    "enableNegativeTokens": false,
+    "scoring": false,
+    "responseAlert": false,
+    "randomizeOptions": false,
+    "removeBackOption": false,
+    "colorPalette": false,
+    "multipleChoice": false,
+    "schema:minValue": 1,
+    "schema:maxValue": 5,
+    "choices": [
+      {
+        "@type": "schema:option",
+        "schema:name": "Option 1",
+        "schema:value": 0,
+        "reprolib:terms/isVis": false,
+        "schema:color": "",
+        "schema:description": ""
+      },
+      {
+        "@type": "schema:option",
+        "schema:name": "Option 2",
+        "schema:value": 1,
+        "reprolib:terms/isVis": false,
+        "schema:color": "",
+        "schema:description": ""
+      },
+      {
+        "@type": "schema:option",
+        "schema:name": "Option 3",
+        "schema:value": 2,
+        "reprolib:terms/isVis": false,
+        "schema:color": "",
+        "schema:description": ""
+      },
+      {
+        "@type": "schema:option",
+        "schema:name": "Option 4",
+        "schema:value": 3,
+        "reprolib:terms/isVis": false,
+        "schema:color": "",
+        "schema:description": ""
+      },
+      {
+        "@type": "schema:option",
+        "schema:name": "Option 5",
+        "schema:value": 4,
+        "reprolib:terms/isVis": false,
+        "schema:color": "",
+        "schema:description": ""
+      }
+    ]
+  }
+}

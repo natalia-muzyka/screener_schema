@@ -1,0 +1,131 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json"
+  ],
+  "@id": "ACE - Parent Report",
+  "@type": "reproschema:Activity",
+  "skos:prefLabel": "ACE - Parent Report",
+  "skos:altLabel": "ACE - Parent Report",
+  "schema:description": "4 out of 4",
+  "schema:splash": "",
+  "schema:image": "",
+  "schema:schemaVersion": "0.0.1",
+  "schema:version": "0.0.1",
+  "preamble": "",
+  "isReviewerActivity": false,
+  "isOnePageAssessment": false,
+  "scoringLogic": {},
+  "repronim:timeUnit": "yearmonthdate",
+  "isPrize": false,
+  "isVis": false,
+  "ui": {
+    "order": [
+      "q1",
+      "q1__28",
+      "q1__27",
+      "q1__26",
+      "q1__25",
+      "q1__24",
+      "q1__23",
+      "q1__22",
+      "q1__21",
+      "q1__20",
+      "q1__2",
+      "q1__1"
+    ],
+    "shuffle": false,
+    "addProperties": [
+      {
+        "variableName": "q1",
+        "isAbout": "q1",
+        "isVis": true
+      },
+      {
+        "variableName": "q1__28",
+        "isAbout": "q1__28",
+        "isVis": true
+      },
+      {
+        "variableName": "q1__27",
+        "isAbout": "q1__27",
+        "isVis": true
+      },
+      {
+        "variableName": "q1__26",
+        "isAbout": "q1__26",
+        "isVis": true
+      },
+      {
+        "variableName": "q1__25",
+        "isAbout": "q1__25",
+        "isVis": true
+      },
+      {
+        "variableName": "q1__24",
+        "isAbout": "q1__24",
+        "isVis": true
+      },
+      {
+        "variableName": "q1__23",
+        "isAbout": "q1__23",
+        "isVis": true
+      },
+      {
+        "variableName": "q1__22",
+        "isAbout": "q1__22",
+        "isVis": true
+      },
+      {
+        "variableName": "q1__21",
+        "isAbout": "q1__21",
+        "isVis": true
+      },
+      {
+        "variableName": "q1__20",
+        "isAbout": "q1__20",
+        "isVis": true
+      },
+      {
+        "variableName": "q1__2",
+        "isAbout": "q1__2",
+        "isVis": true
+      },
+      {
+        "variableName": "q1__1",
+        "isAbout": "q1__1",
+        "isVis": true
+      }
+    ],
+    "allow": []
+  },
+  "subScales": [],
+  "finalSubScale": [],
+  "hasResponseIdentifier": false,
+  "compute": [
+    {
+      "jsExpression": "q1__28 + q1__27 + q1__26 + q1__25 + q1__24 + q1__23 + q1__22 + q1__21 + q1__20",
+      "variableName": "ACE Score",
+      "description": "ACE scores are tallies of various types of abuse, neglect, and household dysfunction that the person has experienced. The scores range from 0 to 17, with higher scores indicating greater adverse childhood experiences.",
+      "direction": true
+    }
+  ],
+  "messages": [
+    {
+      "jsExpression": "ACE Score >= 0",
+      "message": "High scores on this scale indicate the need for further clinical evaluation and attention depending on the level of difficulties encountered in the home, work, or social environments, if not currently being addressed.\n\nLow scores may also require additional evaluation. If you remain concerned about this patient's functioning or well-being, you should seek additional consultation and guidance.",
+      "outputType": "cumulative",
+      "nextActivity": "PMHSA - Self Report",
+      "hideActivity": false,
+      "isRecommended": true
+    },
+    {
+      "jsExpression": "ACE Score < 0",
+      "message": "High scores on this scale indicate the need for further clinical evaluation and attention depending on the level of difficulties encountered in the home, work, or social environments, if not currently being addressed.\n\nLow scores may also require additional evaluation. If you remain concerned about this patient's functioning or well-being, you should seek additional consultation and guidance.",
+      "outputType": "cumulative",
+      "nextActivity": "PMHSA - Self Report",
+      "hideActivity": false,
+      "isRecommended": true
+    }
+  ],
+  "scoreOverview": "## Adverse Childhood Experiences (ACE) Questionnaire  \n\nThe ACE Questionnaire was developed from the ACE study (Felitti et al., 1998). This assessment measures different types of childhood trauma:\n- physical, emotional, verbal, and sexual abuse\n- physical and emotional neglect\n- household dysfunction (e.g., domestic violence, parents' marital status, and substance abuse)"
+}

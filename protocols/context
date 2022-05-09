@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "activity_path": "https://raw.githubusercontent.com/ReproNim/reproschema/master/activities/",
+    "PMHSA__-__Self__Report": {
+      "@id": "activity_path:PMHSA__-__Self__Report/PMHSA__-__Self__Report_schema",
+      "@type": "@id"
+    },
+    "PHQ-9__-__Self__Report": {
+      "@id": "activity_path:PHQ-9__-__Self__Report/PHQ-9__-__Self__Report_schema",
+      "@type": "@id"
+    },
+    "GAD-7__-__Self__Report": {
+      "@id": "activity_path:GAD-7__-__Self__Report/GAD-7__-__Self__Report_schema",
+      "@type": "@id"
+    },
+    "ACE__-__Parent__Report": {
+      "@id": "activity_path:ACE__-__Parent__Report/ACE__-__Parent__Report_schema",
+      "@type": "@id"
+    }
+  }
+}

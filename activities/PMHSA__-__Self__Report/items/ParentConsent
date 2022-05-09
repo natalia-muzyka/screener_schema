@@ -1,0 +1,49 @@
+{
+  "name": "ParentConsent",
+  "question": "## CONSENT STATEMENT – PARENT/LEGAL GUARDIAN\n\n**Sponsor / Study Title:** Child Mind Institute / “Pediatrician Office Mental Health Screening”\n\n**Principal Investigator (Study Doctor):** Michael Milham, M.D., Ph.D.\n\n**Telephone:** (646)-625-4305 (24 Hours)\n\n**Address:**\nChild Mind Institute\n445 Park Ave, Floor 2\nNew York, NY  10022\n\n\nWelcome! You are being asked by your child’s physician to fill out this brief questionnaire about your child’s behavior. The questionnaire may take up to 10 minutes of your time to complete. There will be no cost and no payment to you for filling it out.\n\nYour child’s physician may use this information to improve your child’s physical and mental health evaluation. Additionally, this information may be used for general research on children’s mental health. The principal investigator for this general research portion plans to have 10,000 parents or legal guardians participate.\n\nRemember, this questionnaire is not a substitute for a diagnostic evaluation by a medical or mental health professional. \n\nYour participation is voluntary; you do not have to take part.  Once you have started the questionnaire you can stop at any time.  \n\nIf you believe your child has a psychiatric or learning disorder, please consult your child’s physician.\n\nNote: Your responses may include identifiable information such as your child’s name so that your physician can review your responses with you.  All data collected is encrypted and no identifiable information will be used for research purposes though there is the possible risk of breach of confidentiality.\n\n**WHOM TO CONTACT ABOUT THIS STUDY**\nDuring the study, if you have questions, concerns or complaints about the study, please contact the principal investigator at the telephone number listed on the first page of this consent document. \n\nAn institutional review board (IRB) is an independent committee established to help protect the rights of research subjects. If you have any questions about your rights as a research subject, and/or concerns or complaints regarding this research study, contact:\n\n**•By mail:**\nStudy Subject Adviser\nAdvarra IRB\n6100 Merriweather Dr., Suite 600\nColumbia, MD 21044\n**•or call toll free:**   877-992-4724\n**•or by email:**          adviser@advarra.com\n\nPlease reference the following number when contacting the Study Subject Adviser: ++Pro00018821++.\n\nI understand that the information provided by this questionnaire is not intended to replace the advice, diagnosis, or treatment offered by a medical or mental health professional, and that my anonymous responses may be used and shared for general research on children’s mental health.\n\nCHILD MIND INSTITUTE, INC. AND CHILD MIND MEDICAL PRACTICE, PLLC (TOGETHER, “CMI”) DOES NOT DIRECTLY OR INDIRECTLY PRACTICE MEDICINE OR DISPENSE MEDICAL ADVICE AS PART OF THIS QUESTIONNAIRE. CMI ASSUMES NO LIABILITY FOR ANY DIAGNOSIS, TREATMENT, DECISION MADE, OR ACTION TAKEN IN RELIANCE UPON INFORMATION PROVIDED BY THIS QUESTIONNAIRE, AND ASSUMES NO RESPONSIBILITY FOR YOUR USE OF THIS QUESTIONNAIRE.",
+  "description": "",
+  "isVis": false,
+  "isOptionalText": false,
+  "timer": 0,
+  "allowEdit": true,
+  "@context": [
+    "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json"
+  ],
+  "@type": "reproschema:Field",
+  "@id": "ParentConsent",
+  "skos:prefLabel": "ParentConsent",
+  "skos:altLabel": "ParentConsent",
+  "schema:description": "",
+  "schema:schemaVersion": "0.0.1",
+  "schema:version": "0.0.1",
+  "header": "",
+  "section": "",
+  "ui": {
+    "inputType": "radio",
+    "allow": [
+      "autoAdvance"
+    ]
+  },
+  "responseOptions": {
+    "valueType": "xsd:anyURI",
+    "enableNegativeTokens": false,
+    "scoring": false,
+    "responseAlert": false,
+    "randomizeOptions": false,
+    "removeBackOption": false,
+    "colorPalette": false,
+    "multipleChoice": false,
+    "schema:minValue": 1,
+    "schema:maxValue": 1,
+    "choices": [
+      {
+        "@type": "schema:option",
+        "schema:name": "By clicking here, you agree to the Terms and Conditions",
+        "schema:value": 0,
+        "reprolib:terms/isVis": false,
+        "schema:color": "",
+        "schema:description": ""
+      }
+    ]
+  }
+}

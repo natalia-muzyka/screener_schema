@@ -1,0 +1,49 @@
+{
+  "name": "parentinstructions",
+  "question": "Welcome! You and your child are being asked to fill out a total of 4 questionnaires. First you will be asked a few demographics questions and then you will be instructed to hand the tablet to your child. Then your child will fill out a series of 3 questionnaires before handing the tablet back to you to complete the last assessment. You have finished when you reach the red stop sign: ![stop.png](https://mindlogger-applet-contents.s3.amazonaws.com/images/jBxdiQptk348XiUUfFhBS2.png)\n\nIf you or your child have any questions, please ask the staff.",
+  "description": "",
+  "isVis": false,
+  "isOptionalText": false,
+  "timer": 0,
+  "allowEdit": true,
+  "@context": [
+    "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json"
+  ],
+  "@type": "reproschema:Field",
+  "@id": "parentinstructions",
+  "skos:prefLabel": "parentinstructions",
+  "skos:altLabel": "parentinstructions",
+  "schema:description": "",
+  "schema:schemaVersion": "0.0.1",
+  "schema:version": "0.0.1",
+  "header": "",
+  "section": "",
+  "ui": {
+    "inputType": "radio",
+    "allow": [
+      "autoAdvance"
+    ]
+  },
+  "responseOptions": {
+    "valueType": "xsd:anyURI",
+    "enableNegativeTokens": false,
+    "scoring": false,
+    "responseAlert": false,
+    "randomizeOptions": false,
+    "removeBackOption": false,
+    "colorPalette": false,
+    "multipleChoice": false,
+    "schema:minValue": 1,
+    "schema:maxValue": 1,
+    "choices": [
+      {
+        "@type": "schema:option",
+        "schema:name": "Option 1",
+        "schema:value": 0,
+        "reprolib:terms/isVis": false,
+        "schema:color": "",
+        "schema:description": ""
+      }
+    ]
+  }
+}
